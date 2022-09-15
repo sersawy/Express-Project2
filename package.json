@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "debug": "^4.3.4",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "jade": "^1.11.0",
+    "morgan": "^1.10.0",
+    "node": "^18.9.0",
+    "nodemon": "^2.0.19"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "debug": "DEBUG=* nodemon app.js"
+  },
+  "nodemenConfig": {
+    "restartable": "rs",
+    "delay": 2500,
+    "env": {
+      "PORT": 4000
+    }
+  }
+}
